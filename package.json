@@ -1,0 +1,33 @@
+{
+  "name": "kim-node-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:TUS-OSK/kim-node-practice.git",
+  "author": "JF1HNL <1118040@ed.tus.ac.jp>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "debug": "webpack-dev-server",
+    "serve": "nodemon --watch server.js server.js"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.10",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
